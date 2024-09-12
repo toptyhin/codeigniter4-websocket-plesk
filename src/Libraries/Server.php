@@ -1,11 +1,11 @@
 <?php
 
-namespace Takielias\CodeigniterWebsocket\Libraries;
+namespace Toptyhin\CodeigniterWebsocket\Libraries;
 
 use CodeIgniter\Config\BaseConfig;
 use Ratchet\ConnectionInterface;
 use Ratchet\MessageComponentInterface;
-use Takielias\CodeigniterWebsocket\Libraries\Authorization;
+use Toptyhin\CodeigniterWebsocket\Libraries\Authorization;
 
 /**
  * @package   CodeIgniter WebSocket Library: Server class

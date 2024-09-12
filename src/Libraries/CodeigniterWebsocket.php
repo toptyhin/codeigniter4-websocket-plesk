@@ -1,6 +1,6 @@
 <?php
 
-namespace Takielias\CodeigniterWebsocket\Libraries;
+namespace Toptyhin\CodeigniterWebsocket\Libraries;
 
 use CodeIgniter\Config\BaseConfig;
 use Ratchet\Http\HttpServer;
@@ -22,13 +22,13 @@ class CodeigniterWebsocket
     /**
      * Our configuration instance.
      *
-     * @var \Takielias\CodeigniterWebsocket\Config\
+     * @var \Toptyhin\CodeigniterWebsocket\Config\
      */
     protected $config;
     /**
      * The setting model used to fetch Settings templates.
      *
-     * @var \Takielias\CodeigniterWebsocket\Models\
+     * @var \Toptyhin\CodeigniterWebsocket\Models\
      */
     protected $model;
 

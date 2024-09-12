@@ -1,6 +1,6 @@
 <?php
 
-namespace Takielias\CodeigniterWebsocket\Controllers;
+namespace Toptyhin\CodeigniterWebsocket\Controllers;
 
 use CodeIgniter\Controller;
 

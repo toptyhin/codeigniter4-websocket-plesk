@@ -9,7 +9,7 @@
  * CodeIgniter WebSocket library. It allows you to make powerful realtime applications by using Ratchet Websocket
  */
 use CodeIgniter\CLI\CLI;
-use Takielias\CodeigniterWebsocket\Libraries\AUTHORIZATION;
+use Toptyhin\CodeigniterWebsocket\Libraries\AUTHORIZATION;
 
 if (!function_exists('valid_json')) {
 

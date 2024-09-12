@@ -1,6 +1,7 @@
 {
   "name": "toptyhin/codeigniter4-websocket-plesk",
   "description": "Websocket using Ratchet Websocket technology for CodeIgniter 4",
+  "version": "1.0.1",
   "keywords": [
     "codeigniter",
     "codeigniter4",

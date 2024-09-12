@@ -1,6 +1,6 @@
 <?php
 
-namespace Takielias\CodeigniterWebsocket\Commands;
+namespace Toptyhin\CodeigniterWebsocket\Commands;
 
 use Config\Autoload;
 use CodeIgniter\CLI\CLI;
@@ -103,7 +103,7 @@ class Publish extends BaseCommand
     {
         $path = "{$this->sourcePath}/Controllers/Websocket.php";
         $content = file_get_contents($path);
-        $content = $this->replaceNamespace($content, 'Takielias\CodeigniterWebsocket\Controllers', 'Controllers');
+        $content = $this->replaceNamespace($content, 'Toptyhin\CodeigniterWebsocket\Controllers', 'Controllers');
         $this->writeFile("Controllers/Websocket.php", $content);
     }
 
@@ -146,8 +146,8 @@ class Publish extends BaseCommand
         $path = "{$this->sourcePath}/Config/CodeigniterWebsocket.php";
 
         $content = file_get_contents($path);
-        $content = str_replace('namespace Takielias\CodeigniterWebsocket\Config', "namespace Config", $content);
-        $content = str_replace('extends BaseConfig', "extends \Takielias\CodeigniterWebsocket\Config\CodeigniterWebsocket", $content);
+        $content = str_replace('namespace Toptyhin\CodeigniterWebsocket\Config', "namespace Config", $content);
+        $content = str_replace('extends BaseConfig', "extends \Toptyhin\CodeigniterWebsocket\Config\CodeigniterWebsocket", $content);
 
         $this->writeFile("Config/CodeigniterWebsocket.php", $content);
     }

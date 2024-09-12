@@ -1,8 +1,8 @@
 <?php
 
-namespace Takielias\CodeigniterWebsocket\Libraries;
+namespace Toptyhin\CodeigniterWebsocket\Libraries;
 
-use Takielias\CodeigniterWebsocket\Libraries\JWT;
+use Toptyhin\CodeigniterWebsocket\Libraries\JWT;
 
 /**
  * @package   CodeIgniter WebSocket Library: Validate JWT Token
@@ -18,7 +18,7 @@ class Authorization
     public static function validateTimestamp($token)
     {
         $token = self::validateToken($token);
-        if ($token != false && (now() - $token->timestamp < (\Takielias\CodeigniterWebsocket\Config\Services::CodeigniterWebsocket()->token_timeout * 60))) {
+        if ($token != false && (now() - $token->timestamp < (\Toptyhin\CodeigniterWebsocket\Config\Services::CodeigniterWebsocket()->token_timeout * 60))) {
             return $token;
         }
         return false;
@@ -26,12 +26,12 @@ class Authorization
 
     public static function validateToken($token)
     {
-        return JWT::decode($token, \Takielias\CodeigniterWebsocket\Config\Services::CodeigniterWebsocket()->jwt_key);
+        return JWT::decode($token, \Toptyhin\CodeigniterWebsocket\Config\Services::CodeigniterWebsocket()->jwt_key);
     }
 
     public static function generateToken($data)
     {
-        return JWT::encode($data, \Takielias\CodeigniterWebsocket\Config\Services::CodeigniterWebsocket()->jwt_key);
+        return JWT::encode($data, \Toptyhin\CodeigniterWebsocket\Config\Services::CodeigniterWebsocket()->jwt_key);
     }
 
 }

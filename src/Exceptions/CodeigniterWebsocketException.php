@@ -1,6 +1,6 @@
 <?php
 
-namespace Takielias\CodeigniterWebsocket\Exceptions;
+namespace Toptyhin\CodeigniterWebsocket\Exceptions;
 
 use CodeIgniter\Exceptions\ExceptionInterface;
 use CodeIgniter\Exceptions\FrameworkException;

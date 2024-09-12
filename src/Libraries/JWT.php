@@ -1,6 +1,6 @@
 <?php
 
-namespace Takielias\CodeigniterWebsocket\Libraries;
+namespace Toptyhin\CodeigniterWebsocket\Libraries;
 
 /**
  * JSON Web Token implementation, based on this spec:

@@ -1,6 +1,6 @@
 <?php
 
-namespace Takielias\CodeigniterWebsocket\Config;
+namespace Toptyhin\CodeigniterWebsocket\Config;
 
 use CodeIgniter\Config\BaseService;
 use CodeIgniter\Config\BaseConfig;
@@ -27,6 +27,6 @@ class Services extends BaseService
         if (empty($config))
             $config = config('CodeigniterWebsocket');
 
-        return new \Takielias\CodeigniterWebsocket\Libraries\CodeigniterWebsocket($config);
+        return new \Toptyhin\CodeigniterWebsocket\Libraries\CodeigniterWebsocket($config);
     }
 }

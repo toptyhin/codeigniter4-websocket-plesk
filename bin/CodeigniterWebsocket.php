@@ -12,7 +12,7 @@
 
 use CodeIgniter\Config\BaseConfig;
 
-class CodeigniterWebsocket extends \Takielias\CodeigniterWebsocket\Config\CodeigniterWebsocket
+class CodeigniterWebsocket extends \Toptyhin\CodeigniterWebsocket\Config\CodeigniterWebsocket
 {
     public $host = "0.0.0.0";
     public $port = 8282;
