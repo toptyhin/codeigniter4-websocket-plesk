@@ -1,5 +1,5 @@
 {
-  "name": "takielias/codeigniter4-websocket",
+  "name": "toptyhin/codeigniter4-websocket-plesk",
   "description": "Websocket using Ratchet Websocket technology for CodeIgniter 4",
   "keywords": [
     "codeigniter",
@@ -12,7 +12,7 @@
     "realtime",
     "Ratchet"
   ],
-  "homepage": "https://github.com/takielias/codeigniter4-websocket",
+  "homepage": "https://github.com/toptyhin/codeigniter4-websocket-plesk",
   "license": "MIT",
   "authors": [
     {
@@ -20,7 +20,13 @@
       "email": "taki.elias@gmail.com",
       "homepage": "https://ebuz.xyz",
       "role": "Software Engineer"
-    }
+    },
+    {
+      "name": "Toptyhin",
+      "email": "alk@alk.com",
+      "homepage": "https://ebuz.xyz",
+      "role": "Software Engineer"
+    }    
   ],
   "require": {
     "php": "^7.2|^8.0",
@@ -32,7 +38,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Takielias\\CodeigniterWebsocket\\": "src"
+      "Toptyhin\\CodeigniterWebsocket\\": "src"
     }
   },
   "scripts": {
