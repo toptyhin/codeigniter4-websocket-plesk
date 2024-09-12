@@ -24,7 +24,7 @@
   ],
   "require": {
     "php": "^7.2|^8.0",
-    "cboden/ratchet": "^0.4.4",
+    "plesk/ratchetphp": "^1.0.3",
     "textalk/websocket": "^1.6.3"
   },
   "require-dev": {
